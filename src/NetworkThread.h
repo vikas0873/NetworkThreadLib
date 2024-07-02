@@ -6,9 +6,6 @@
 class NetworkThread {
 public:
     static void begin();
-    static void sendData(const String& data);
-    static String receiveData();
-    static bool isConnected();
 };
 
 #endif
